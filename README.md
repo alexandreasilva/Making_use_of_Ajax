@@ -1,14 +1,14 @@
 ## HTTP
 HyperText Transfer Protocol
 
-#### Referências
+#### References
 - https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Overview#o_que_pode_ser_controlado_pelo_http
 
 ## AJAX
 Asynchronous JavaScript and XML
-- importante por trabalhar atualização da página sob demanda, de modo assíncrono
-- requisições assíncronas trabalham de modo não cronológico, varia de acordo com o tempo de resposta do servidor, quantidade de informações...
-- pode ser implementada pelo [JQuery](https://api.jquery.com/jquery.ajax/) ou [Fecth API do JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API/Using_Fetch)
+- important for working on-demand page update, asynchronously
+- asynchronous requests work non-chronologically, it varies according to server response time, amount of information...
+- can be implemented by [JQuery](https://api.jquery.com/jquery.ajax/) or [Fecth API do JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API/Using_Fetch)
 
 ## APIs
 Application Program Interface
@@ -16,19 +16,19 @@ Application Program Interface
 - [Json Placeholder > Posts](https://jsonplaceholder.typicode.com/posts)
 
 ## Rest
-Criado por Roy Fielding, um dos criadores do HTTP
-- Serve para estabelecer padrões de comunicação entre back-end e front-end
-- Header: cabeçalho de requisições
-- Path: caminho ou rota para back-end
+Created by Roy Fielding, one of the creators of HTTP
+- Serves to establish standards of communication between back-end and front-end
+- Header: request header
+- Path: path or route to back-end
 - URL: apix.google.com, api.amazon.com
-- Interoperar dados, informações, serviços
+- Interrupts data, information, services
 - Get
 - Post
 - Put
 - Delete
 
-## Validação de Formulário
-- Garantir o preenchimento correto de campos
-- Validar dados, documentos, números importantes (CPF, CEP, Telefone, Número de Cartão, .... )
-- Prevenção de vulnerabilidades como SQL Injection
-- Tarefa do front-end, que podem ser processadas pelo back-end
+## Form Validation
+- Ensure correct completion of fields
+- Validate data, documents, important numbers (CPF, CEP, Telephone, Card Number, .... )
+- Prevention of vulnerabilities such as SQL Injection
+- Task of front-end, that can be processed by back-end

@@ -1,0 +1,106 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: block;
+}
+
+#posts {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 1.5rem;
+    justify-content: start;
+}
+
+h1 {
+    font-size: 2.2rem;
+    color: rgb(0, 0, 0);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 2.6rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+h3 {
+    font-size: 2rem;
+    margin-bottom: .5rem;
+}
+
+p {
+    background-color: #fff;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    display: block;
+    border: solid 1px;
+    border-radius: 5px;
+    border-color: rgb(169, 169, 169);
+    padding: 8px;
+}
+
+input[type="text"] {
+    border: 1px solid #000;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    padding: 1rem;
+    margin-top: 12px;
+}
+
+.button {
+    background-color: rgb(0, 0, 0);
+    border: 0;
+    border-radius: 20px;
+    color: #fff;
+    display: block;
+    font-size: 1.6rem;
+    cursor: pointer;
+    margin: 1rem 0 2rem;
+    padding: 1rem 2rem;
+    width: fit-content;
+}
+
+.button:hover {
+    opacity: .75;
+}
+
+.posts-item {
+    width: calc(100% / 3);
+    padding: 1rem;
+}
+
+.post {
+    max-width: 80px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.git {
+    max-width: 80px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+form {
+    border: 1px solid #999;
+    background-color: rgb(227, 225, 225);
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 2rem;
+}
